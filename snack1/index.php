@@ -33,9 +33,9 @@ $games = [
 
 
 foreach ($games as $key => $game) {
-    echo "<span>" . $game['Home'] . "</span>";
-    echo "<span>" . $game['Visitors'] . "</span>";
-    echo "<span>" . $game['Place'] . "</span>";
+    echo "<span>" . $game['Home'] . " </span>";
+    echo "<span>" . $game['Visitors'] . " - </span>";
+    echo "<span>" . $game['Place'] . " | </span>";
     echo "<span>" . $game['Score_House'] . "-</span>";
     echo "<span>" . $game['Score_Visitor'] . "</span>";
     echo "<br></br>";
