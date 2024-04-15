@@ -12,7 +12,10 @@ if (strlen($name) >= 3) {
     echo ("Il nome è valido -");
     if (str_contains($mail, ".") && str_contains($mail, "@")) {
         echo (" La mail è valida -");
-        echo (" Accesso riuscito");
+        if (is_numeric($age)) {
+            echo (" é un numero valido -");
+            echo (" accesso riuscito");
+        }
     }
 } else {
     echo ("Accesso negato");
